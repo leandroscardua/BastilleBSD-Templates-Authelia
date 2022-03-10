@@ -1,0 +1,4 @@
+PKG ca_root_nss authelia
+SYSRC authelia_enable=YES
+CP /usr/local/etc/simplified-authelia.yml /usr/local/etc/authelia.yml
+SERVICE authelia start
